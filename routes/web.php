@@ -22,7 +22,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    echo "NIM: 2041720027, NAMA: MILA YUNITA, KELAS: TI-2C";
+    echo "Nim   : 2041720027<br>
+          Nama  : Mila Yunita<br>
+          Kelas : TI-2C";
 });
 
 Route::get('/articles/{id}', function ($id) {
